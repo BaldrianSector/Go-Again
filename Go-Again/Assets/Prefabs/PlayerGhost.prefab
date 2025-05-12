@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1103069434137685660}
   m_Layer: 0
   m_Name: PlayerGhost
-  m_TagString: Player
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1541
+  m_VersionIndex: 1568
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -392,4 +392,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66f17116d32e1a408ab8050a67b0351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oobRootObject: {fileID: 0}
+  oobRootObject: {fileID: 3179313029577785898, guid: 0a51ee8991ff5664f9073fe900dc302a, type: 3}
