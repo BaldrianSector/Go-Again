@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Lava
+  - NoRespawn
   layers:
   - Default
   - TransparentFX

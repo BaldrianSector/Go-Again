@@ -5,12 +5,10 @@ public class CollisionLogic : MonoBehaviour
     public GameObject playerCubePrefab; // Assign in Inspector
 
     private Collider playerCollider;
-    private Rigidbody rb;
 
     void Awake()
     {
         playerCollider = GetComponent<Collider>();
-        rb = GetComponent<Rigidbody>();
     }
 
     private void Update()
@@ -42,10 +40,36 @@ public class CollisionLogic : MonoBehaviour
         Vector3 deathPosition = transform.position;
         Quaternion deathRotation = transform.rotation;
 
+        // Capture velocity from CharacterController
+        CharacterController cc = GetComponent<CharacterController>();
+        Vector3 deathVelocity = cc != null ? cc.velocity : Vector3.zero;
+
+        // Check if the player is inside a collider tagged "NoRespawn"
+        Collider[] overlaps = Physics.OverlapSphere(deathPosition, 0.1f);
+        foreach (Collider col in overlaps)
+        {
+            if (col.CompareTag("NoRespawn"))
+            {
+                Debug.Log("Death inside NoRespawn zone – ghost will not be spawned.");
+                SafeTeleportToStart();
+                return;
+            }
+        }
+
+        // Offset the ghost's position slightly above the ground
         Vector3 offsetDeathPosition = deathPosition + new Vector3(0, 0.48f, 0);
+
+        // Spawn ghost
         GameObject ghost = Instantiate(playerCubePrefab, offsetDeathPosition, deathRotation);
         Collider ghostCollider = ghost.GetComponent<Collider>();
         if (ghostCollider != null) ghostCollider.enabled = false;
+
+        // Apply velocity to ghost's Rigidbody if present
+        Rigidbody ghostRb = ghost.GetComponent<Rigidbody>();
+        if (ghostRb != null)
+        {
+            ghostRb.linearVelocity = deathVelocity;
+        }
 
         SafeTeleportToStart();
 
@@ -54,14 +78,8 @@ public class CollisionLogic : MonoBehaviour
 
     void SafeTeleportToStart()
     {
-        // Disable physics and collisions
+        // Disable collider to avoid unwanted collision during teleport
         if (playerCollider != null) playerCollider.enabled = false;
-        if (rb != null)
-        {
-            rb.linearVelocity = Vector3.zero;
-            rb.angularVelocity = Vector3.zero;
-            rb.isKinematic = true;
-        }
 
         GameObject respawnPoint = GameObject.FindGameObjectWithTag("Respawn");
         if (respawnPoint != null)
@@ -77,8 +95,7 @@ public class CollisionLogic : MonoBehaviour
             Debug.LogWarning("No object with tag 'Respawn' found in the scene!");
         }
 
-        // Re-enable physics and collisions
+        // Re-enable collider
         if (playerCollider != null) playerCollider.enabled = true;
-        if (rb != null) rb.isKinematic = false;
     }
 }
