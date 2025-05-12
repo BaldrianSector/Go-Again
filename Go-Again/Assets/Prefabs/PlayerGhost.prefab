@@ -15,8 +15,9 @@ GameObject:
   - component: {fileID: 4642221937396207830}
   - component: {fileID: 7864793116152735417}
   - component: {fileID: 132833715473647405}
+  - component: {fileID: 1103069434137685660}
   m_Layer: 0
-  m_Name: PlayerCube
+  m_Name: PlayerGhost
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -249,7 +250,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1505
+  m_VersionIndex: 1541
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -379,3 +380,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1103069434137685660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3302466975620284574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66f17116d32e1a408ab8050a67b0351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oobRootObject: {fileID: 0}

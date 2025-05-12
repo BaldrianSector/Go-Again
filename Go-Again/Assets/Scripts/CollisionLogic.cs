@@ -26,11 +26,11 @@ public class CollisionLogic : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Lava"))
+        if (other.CompareTag("Lava"))
         {
-            Debug.Log("Collided with Lava – triggering death.");
+            Debug.Log("Entered Lava trigger – triggering death.");
             TriggerDeath();
         }
     }
