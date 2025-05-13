@@ -198,7 +198,6 @@ namespace StarterAssets
                 if (isStationary)
                 {
                     Grounded = true;
-                    Debug.Log("Assuming grounded due to lack of movement.");
                 }
             }
 

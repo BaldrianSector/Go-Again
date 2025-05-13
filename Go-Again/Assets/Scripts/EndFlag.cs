@@ -7,6 +7,7 @@ public class EndFlag : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player has reached the end flag!");
+            SceneController.instance.NextLevel();
         }
         else
         {
