@@ -177,18 +177,38 @@ namespace StarterAssets
 
         private void GroundedCheck()
         {
-            // set sphere position, with offset
-            Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset,
-                transform.position.z);
-            Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers,
-                QueryTriggerInteraction.Ignore);
+            Vector3 checkPosition = transform.position + Vector3.down * GroundedOffset;
+            Collider[] hitColliders = Physics.OverlapSphere(checkPosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
 
-            // update animator if using character
+            Grounded = false;
+
+            // Ground detected via overlap
+            if (hitColliders.Length > 0)
+            {
+                Grounded = true;
+            }
+
+            // Final fallback: if the player is barely moving, assume grounded
+            if (!Grounded)
+            {
+                Vector3 velocity = _controller.velocity;
+                Vector3 horizontalVelocity = new Vector3(velocity.x, 0, velocity.z);
+                bool isStationary = horizontalVelocity.magnitude < 0.01f && Mathf.Abs(velocity.y) < 0.1f;
+
+                if (isStationary)
+                {
+                    Grounded = true;
+                    Debug.Log("Assuming grounded due to lack of movement.");
+                }
+            }
+
+            // update animator
             if (_hasAnimator)
             {
                 _animator.SetBool(_animIDGrounded, Grounded);
             }
         }
+
 
         private void CameraRotation()
         {
