@@ -6,7 +6,7 @@ public class Spawner : MonoBehaviour
     public GameObject player; // Reference to the player object
 
     [Header("Movement Settings")]
-    public Vector3 positionOffset = new Vector3(0, 1.5f, 0); // Optional offset (e.g. for height)
+    public Vector3 positionOffset = new Vector3(0, 1.625f, 0); // Optional offset (e.g. for height)
 
     void Update()
     {

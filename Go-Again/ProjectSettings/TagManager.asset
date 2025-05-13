@@ -9,6 +9,7 @@ TagManager:
   - NoRespawn
   - OOB
   - Ghost
+  - Mover
   layers:
   - Default
   - TransparentFX
