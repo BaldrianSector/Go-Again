@@ -5954,6 +5954,8 @@ MonoBehaviour:
   _scenePrefabInstances:
   - _gameObject: {fileID: 931113228}
     _prefab: Assets/Prefabs/RespawnLocation.prefab
+  - _gameObject: {fileID: 1039563487}
+    _prefab: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle.prefab
   - _gameObject: {fileID: 101304194}
     _prefab: Assets/Prefabs/NoCubeZone.prefab
   - _gameObject: {fileID: 454756413}
@@ -5980,6 +5982,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &230751181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 230751182}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &230751182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230751181}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.297516, y: -14.200859, z: -7.6980133}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13942,6 +13975,22 @@ PrefabInstance:
       propertyPath: pushLayers.m_Bits
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3203261902030644824, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.21000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3203261902030644824, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542111180780342647, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.21000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542111180780342647, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 6341998657737914590, guid: 212907312655a4443a025a304442c17c, type: 3}
       propertyPath: Gravity
       value: -20
@@ -19505,6 +19554,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3666455665008181279, guid: 15a3613afe50d624098eaaf7773c52d4, type: 3}
   m_PrefabInstance: {fileID: 2836967608413262916}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &931113230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931113228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d750ee2a0fba949c8aa1039a2f107a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1866801697}
+  positionOffset: {x: 0, y: 1.625, z: 0}
 --- !u!43 &954340057
 Mesh:
   m_ObjectHideFlags: 0
@@ -21300,6 +21363,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &1039563487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 682194276736653289, guid: 15a3613afe50d624098eaaf7773c52d4, type: 3}
+  m_PrefabInstance: {fileID: 2836967608413262916}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1083404329
 Mesh:
   m_ObjectHideFlags: 0
@@ -44724,7 +44792,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3666455665008181279, guid: 15a3613afe50d624098eaaf7773c52d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 931113230}
   m_SourcePrefab: {fileID: 100100000, guid: 15a3613afe50d624098eaaf7773c52d4, type: 3}
 --- !u!1001 &7187337669186638425
 PrefabInstance:
@@ -44795,5 +44866,6 @@ SceneRoots:
   - {fileID: 325567132}
   - {fileID: 211828661}
   - {fileID: 618981347}
+  - {fileID: 230751182}
   - {fileID: 1029635789801478322}
   - {fileID: 511483676}
