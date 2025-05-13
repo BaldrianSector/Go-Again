@@ -5753,6 +5753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05a7c62fccbafd342991629222351294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _scenePrefabInstances: []
 --- !u!4 &211828661
 Transform:
   m_ObjectHideFlags: 11
@@ -39627,7 +39628,7 @@ GameObject:
   - component: {fileID: 1915470714}
   - component: {fileID: 1915470713}
   m_Layer: 0
-  m_Name: Player_cube (1)
+  m_Name: Player_cube_pixel test
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39681,7 +39682,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1579186401}
+  m_Mesh: {fileID: 1932699878}
 --- !u!33 &1915470715
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -39713,7 +39714,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 4c9583fffa1bc4262be7df3fe512c981, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
