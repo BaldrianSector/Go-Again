@@ -49,8 +49,6 @@ public class RaycastInteractor : MonoBehaviour
 
         foreach (var hit in hits)
         {
-            Debug.Log("Hit: " + hit.collider.gameObject.name);
-
             GameObject hitObj = hit.collider.gameObject;
 
             if (hitObj.CompareTag("Ghost"))
