@@ -44869,15 +44869,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3180754637304339123, guid: 607e2693300954112b74b2449257bea8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.9
+      value: -2.332
       objectReference: {fileID: 0}
     - target: {fileID: 3180754637304339123, guid: 607e2693300954112b74b2449257bea8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8
+      value: 0.98
       objectReference: {fileID: 0}
     - target: {fileID: 3180754637304339123, guid: 607e2693300954112b74b2449257bea8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.23
+      value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: 3180754637304339123, guid: 607e2693300954112b74b2449257bea8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -44910,22 +44910,6 @@ PrefabInstance:
     - target: {fileID: 4978007034743517242, guid: 607e2693300954112b74b2449257bea8, type: 3}
       propertyPath: m_Name
       value: Bloddecal
-      objectReference: {fileID: 0}
-    - target: {fileID: 7831962801613167776, guid: 607e2693300954112b74b2449257bea8, type: 3}
-      propertyPath: m_Size.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7831962801613167776, guid: 607e2693300954112b74b2449257bea8, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7831962801613167776, guid: 607e2693300954112b74b2449257bea8, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 2100000, guid: 1c3daba2daafe4aaebefdb498aced278, type: 2}
-    - target: {fileID: 7831962801613167776, guid: 607e2693300954112b74b2449257bea8, type: 3}
-      propertyPath: m_FadeFactor
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

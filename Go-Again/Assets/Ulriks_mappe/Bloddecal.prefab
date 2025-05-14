@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4978007034743517242}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5179555, y: 0.071293704, z: -0.11571413, w: 0.844541}
+  m_LocalRotation: {x: 0.51795685, y: 0.07129718, z: -0.11571701, w: 0.8445395}
   m_LocalPosition: {x: -0.68, y: 0.357, z: -2.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: d263d3d2778ef40658b215e53893c9f3, type: 2}
+  m_Material: {fileID: 2100000, guid: 1c3daba2daafe4aaebefdb498aced278, type: 2}
   m_DrawDistance: 1000
   m_FadeScale: 0.9
   m_StartAngleFade: 180
@@ -54,5 +54,5 @@ MonoBehaviour:
   m_DecalLayerMask: 1
   m_ScaleMode: 0
   m_Offset: {x: 0, y: 0, z: 0.5}
-  m_Size: {x: 1, y: 1, z: 1}
-  m_FadeFactor: 0
+  m_Size: {x: 2, y: 2, z: 1}
+  m_FadeFactor: 1
