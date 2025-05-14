@@ -6,6 +6,8 @@ public class CollisionLogic : MonoBehaviour
 
     private Collider playerCollider;
 
+    public TriggerAnimation triggerAnimation;
+
     void Awake()
     {
         playerCollider = GetComponent<Collider>();
@@ -30,12 +32,13 @@ public class CollisionLogic : MonoBehaviour
     {
         if (other.CompareTag("Lava"))
         {
-            Debug.Log("Entered Lava trigger – triggering death.");
+            Debug.Log("Entered Lava trigger – triggering VFX + death.");
+            triggerAnimation.TriggerVFX();
             TriggerDeath();
         }
     }
 
-    void TriggerDeath()
+    public void TriggerDeath()
     {
         // Increment death count in GameManager
         GameManager.instance.RegisterDeath();

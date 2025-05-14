@@ -9,7 +9,7 @@ public class TriggerAnimation : MonoBehaviour
     private bool hasSpawnedParticles = false;
 
     [Tooltip("Name of the state with the animation")]
-    public string animationStateName = "MyAnimState"; // <-- change this
+    public string animationStateName = "MyAnimState";
     [Tooltip("Layer index where the animation is")]
     public int layerIndex = 0;
 
@@ -23,6 +23,8 @@ public class TriggerAnimation : MonoBehaviour
 
     public float particleTriggerTime = 0.8f; // normalized time
 
+    private CollisionLogic collisionLogic;
+
     private void Start()
     {
         _animator = GetComponent<Animator>();
@@ -34,11 +36,25 @@ public class TriggerAnimation : MonoBehaviour
         _animator.Play(animationStateName, layerIndex, 0f);
         _animator.Update(0f);
         _animator.speed = 0f;
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            collisionLogic = player.GetComponent<CollisionLogic>();
+            if (collisionLogic == null)
+            {
+                Debug.LogWarning("CollisionLogic script not found on Player.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Player GameObject not found in scene.");
+        }
     }
 
     private void Update()
     {
-        bool isHolding = Input.GetKey(KeyCode.T);
+        bool isHolding = Input.GetKey(KeyCode.E);
         float delta = Time.deltaTime;
 
         if (isHolding)
@@ -60,13 +76,14 @@ public class TriggerAnimation : MonoBehaviour
                 hasReachedEnd = false;
             }
 
-            // 🎆 Spawn particle once when reaching the trigger time
             if (!hasSpawnedParticles && currentTime >= particleTriggerTime)
             {
-                SpawnParticles();
-                hasSpawnedParticles = true;
-                
-                SpawnDecal();
+                TriggerVFX();
+
+                if (collisionLogic != null)
+                {
+                    collisionLogic.TriggerDeath();
+                }
             }
         }
         else
@@ -90,6 +107,16 @@ public class TriggerAnimation : MonoBehaviour
         _animator.Update(0f);
     }
 
+    public void TriggerVFX()
+    {
+        if (!hasSpawnedParticles)
+        {
+            SpawnParticles();
+            hasSpawnedParticles = true;
+            SpawnDecal();
+        }
+    }
+
     private void SpawnDecal()
     {
         Debug.Log("Spawned decal at: " + transform.position);
@@ -98,11 +125,9 @@ public class TriggerAnimation : MonoBehaviour
         {
             Vector3 spawnPosition = transform.position + offset;
 
-            // Random rotation around Y axis
             float randomY = Random.Range(0f, 360f);
             Quaternion randomYRotation = Quaternion.Euler(0f, randomY, 0f);
 
-            // Use the prefab's default rotation and add Y rotation
             Quaternion spawnRotation = randomYRotation * decalPrefab.transform.rotation;
 
             Instantiate(decalPrefab, spawnPosition, spawnRotation);
@@ -112,8 +137,6 @@ public class TriggerAnimation : MonoBehaviour
             Debug.LogWarning("Missing decal prefab.");
         }
     }
-
-
 
     private void SpawnParticles()
     {
