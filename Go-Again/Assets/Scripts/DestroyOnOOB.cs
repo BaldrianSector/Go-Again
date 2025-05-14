@@ -19,7 +19,5 @@ public class DestroyOnOOB : MonoBehaviour
 
             current = current.parent;
         }
-
-        Debug.Log("No OOB tag found in hierarchy.");
     }
 }
