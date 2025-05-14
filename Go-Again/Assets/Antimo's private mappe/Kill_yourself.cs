@@ -4,6 +4,7 @@ namespace Antimo_s_private_mappe
 {
     public class KillYourself : MonoBehaviour
     {
+        private static readonly int PlayAnim = Animator.StringToHash("PlayAnim");
         private Animator _animator;
 
         void Start()
@@ -15,7 +16,7 @@ namespace Antimo_s_private_mappe
         {
             if (Input.GetKeyDown(KeyCode.Space)) // or any key you like
             {
-                _animator.SetTrigger("PlayAnim"); // Use the name of your animation clip
+                _animator.SetTrigger(PlayAnim); // Use the name of your animation clip
             }
         }
     }
