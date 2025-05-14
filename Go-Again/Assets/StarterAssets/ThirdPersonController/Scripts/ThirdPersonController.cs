@@ -324,11 +324,17 @@ namespace StarterAssets
                     // the square root of H * -2 * G = how much velocity needed to reach desired height
                     _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
 
+                    // register the jump in the game manager for analytics
+                    GameManager.instance.RegisterJump();
+
                     // update animator if using character
                     if (_hasAnimator)
                     {
                         _animator.SetBool(_animIDJump, true);
                     }
+
+                    // ✅ Fix: reset jump input so it only registers once
+                    _input.jump = false;
                 }
 
                 // jump timeout

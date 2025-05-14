@@ -37,6 +37,9 @@ public class CollisionLogic : MonoBehaviour
 
     void TriggerDeath()
     {
+        // Increment death count in GameManager
+        GameManager.instance.RegisterDeath();
+
         Vector3 deathPosition = transform.position;
         Quaternion deathRotation = transform.rotation;
 
