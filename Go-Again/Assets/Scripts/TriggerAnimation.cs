@@ -15,6 +15,8 @@ public class TriggerAnimation : MonoBehaviour
 
     [Header("Particle Settings")]
     public GameObject particlePrefab;
+
+    public GameObject decalPrefab;
     public Transform particleSpawnPoint;
     public float particleTriggerTime = 0.8f; // normalized time
 
@@ -60,6 +62,8 @@ public class TriggerAnimation : MonoBehaviour
             {
                 SpawnParticles();
                 hasSpawnedParticles = true;
+                
+                SpawnDecal();
             }
         }
         else
@@ -82,6 +86,22 @@ public class TriggerAnimation : MonoBehaviour
         _animator.Play(animationStateName, layerIndex, currentTime);
         _animator.Update(0f);
     }
+
+    private void SpawnDecal()
+    {
+        Debug.Log("Spawned decal at: " + transform.position);
+
+        if (decalPrefab != null)
+        {
+            Vector3 spawnPosition = transform.position + Vector3.up * 0.20f; // slight upward offset
+            Instantiate(decalPrefab, spawnPosition, Quaternion.identity);
+        }
+        else
+        {
+            Debug.LogWarning("Missing decal prefab.");
+        }
+    }
+
 
     private void SpawnParticles()
     {
