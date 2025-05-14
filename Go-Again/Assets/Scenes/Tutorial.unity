@@ -6223,6 +6223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 230751182}
   - component: {fileID: 230751183}
+  - component: {fileID: 230751184}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6257,6 +6258,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc48bbfdc1b794e4ea1ab6d76dd01a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &230751184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230751181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a7a7d392e7d24794abeaf3db1e384a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathCount: 0
+  jumpCount: 0
+  distanceTraveled: 0
+  timeInLevel: 0
 --- !u!43 &249195843
 Mesh:
   m_ObjectHideFlags: 0
