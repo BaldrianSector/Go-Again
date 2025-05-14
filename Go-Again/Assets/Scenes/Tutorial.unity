@@ -14340,6 +14340,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3874686911284964439, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874686911284964439, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874686911284964439, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874686911284964439, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874686911284964439, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874686911284964439, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874686911284964439, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874686911284964439, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874686911284964439, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261818975183450354, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: particlePrefab
+      value: 
+      objectReference: {fileID: 3970009498970699421, guid: c4e764759a923432c81888f25ad9f6af, type: 3}
+    - target: {fileID: 4261818975183450354, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: animationStateName
+      value: Kill Yourself
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261818975183450354, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: particleSpawnPoint
+      value: 
+      objectReference: {fileID: 624221185}
+    - target: {fileID: 4261818975183450354, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: particleTriggerTime
+      value: 0.93
+      objectReference: {fileID: 0}
     - target: {fileID: 8047161636021232021, guid: 212907312655a4443a025a304442c17c, type: 3}
       propertyPath: m_Name
       value: Player + Camera
@@ -17525,6 +17577,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &624221185 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3874686911284964439, guid: 212907312655a4443a025a304442c17c, type: 3}
+  m_PrefabInstance: {fileID: 511483676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &625380208
 Mesh:
   m_ObjectHideFlags: 0
@@ -45307,7 +45364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4142982713878353548, guid: 15a3613afe50d624098eaaf7773c52d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.3
+      value: 13.23
       objectReference: {fileID: 0}
     - target: {fileID: 4142982713878353548, guid: 15a3613afe50d624098eaaf7773c52d4, type: 3}
       propertyPath: m_LocalPosition.z
