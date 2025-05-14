@@ -15,9 +15,12 @@ public class TriggerAnimation : MonoBehaviour
 
     [Header("Particle Settings")]
     public GameObject particlePrefab;
+    public Transform particleSpawnPoint;
 
     public GameObject decalPrefab;
-    public Transform particleSpawnPoint;
+
+    public Vector3 offset = new Vector3(0f, 0.02f, 0f); // Adjustable in Inspector
+
     public float particleTriggerTime = 0.8f; // normalized time
 
     private void Start()
@@ -93,14 +96,23 @@ public class TriggerAnimation : MonoBehaviour
 
         if (decalPrefab != null)
         {
-            Vector3 spawnPosition = transform.position + Vector3.up * 0.20f; // slight upward offset
-            Instantiate(decalPrefab, spawnPosition, Quaternion.identity);
+            Vector3 spawnPosition = transform.position + offset;
+
+            // Random rotation around Y axis
+            float randomY = Random.Range(0f, 360f);
+            Quaternion randomYRotation = Quaternion.Euler(0f, randomY, 0f);
+
+            // Use the prefab's default rotation and add Y rotation
+            Quaternion spawnRotation = randomYRotation * decalPrefab.transform.rotation;
+
+            Instantiate(decalPrefab, spawnPosition, spawnRotation);
         }
         else
         {
             Debug.LogWarning("Missing decal prefab.");
         }
     }
+
 
 
     private void SpawnParticles()

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3180754637304339123}
   - component: {fileID: 7831962801613167776}
   m_Layer: 0
-  m_Name: Bloodecal
+  m_Name: BloodDecal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,13 +25,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4978007034743517242}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.51795685, y: 0.07129718, z: -0.11571701, w: 0.8445395}
-  m_LocalPosition: {x: -0.68, y: 0.79, z: -2.89}
+  m_LocalRotation: {x: 0.44790128, y: -0.5471603, z: 0.28470019, w: 0.64726025}
+  m_LocalPosition: {x: -0.68, y: 2.06, z: -2.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 63.046, y: 0.07, z: -15.561}
+  m_LocalEulerAnglesHint: {x: 63.046, y: -90, z: -15.561}
 --- !u!114 &7831962801613167776
 MonoBehaviour:
   m_ObjectHideFlags: 0
