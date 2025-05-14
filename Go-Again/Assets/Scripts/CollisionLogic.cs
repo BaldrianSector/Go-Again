@@ -50,6 +50,10 @@ public class CollisionLogic : MonoBehaviour
         CharacterController cc = GetComponent<CharacterController>();
         Vector3 deathVelocity = cc != null ? cc.velocity : Vector3.zero;
 
+        // Capture angular velocity from Rigidbody if present
+        Rigidbody rb = GetComponent<Rigidbody>();
+        Vector3 deathAngularVelocity = rb != null ? rb.angularVelocity : Vector3.zero;
+
         // Check if the player is inside a collider tagged "NoRespawn"
         Collider[] overlaps = Physics.OverlapSphere(deathPosition, 0.1f);
         foreach (Collider col in overlaps)
@@ -70,12 +74,14 @@ public class CollisionLogic : MonoBehaviour
         Collider ghostCollider = ghost.GetComponent<Collider>();
         if (ghostCollider != null) ghostCollider.enabled = false;
 
-        // Apply velocity to ghost's Rigidbody if present
+        // Apply velocity and angular velocity to ghost's Rigidbody if present
         Rigidbody ghostRb = ghost.GetComponent<Rigidbody>();
         if (ghostRb != null)
         {
-            ghostRb.linearVelocity = deathVelocity;
+            ghostRb.linearVelocity = deathVelocity;               // linear movement
+            ghostRb.angularVelocity = deathAngularVelocity; // rotational movement
         }
+
 
         SafeTeleportToStart();
 
