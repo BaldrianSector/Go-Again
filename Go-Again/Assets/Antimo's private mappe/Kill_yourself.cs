@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Antimo_s_private_mappe
 {
-    public class KillYourself : MonoBehaviour
+    public partial class KillYourself : MonoBehaviour
     {
         private static readonly int PlayAnim = Animator.StringToHash("PlayAnim");
         private Animator _animator;
