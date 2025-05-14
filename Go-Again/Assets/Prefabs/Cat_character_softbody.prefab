@@ -103,6 +103,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: -876546973899608171, guid: b60a76f4a93f94aacb2881eda8ef621d, type: 3}
+    - target: {fileID: -1526964690268444965, guid: 0e9487e6da16e4b2e944a8c0e78b8cae, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c4af332f40aa4dd19ad858796d3897c, type: 2}
     - target: {fileID: -516098083770646512, guid: 0e9487e6da16e4b2e944a8c0e78b8cae, type: 3}
       propertyPath: m_Name
       value: Arm
@@ -111,9 +115,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat_character_softbody
       objectReference: {fileID: 0}
+    - target: {fileID: 7603786706384944740, guid: 0e9487e6da16e4b2e944a8c0e78b8cae, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c4af332f40aa4dd19ad858796d3897c, type: 2}
     - target: {fileID: 8416272007918961125, guid: 0e9487e6da16e4b2e944a8c0e78b8cae, type: 3}
       propertyPath: m_Name
       value: Tail
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416272007918961125, guid: 0e9487e6da16e4b2e944a8c0e78b8cae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
