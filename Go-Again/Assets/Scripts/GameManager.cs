@@ -60,6 +60,12 @@ public class GameManager : MonoBehaviour
         UpdateLivesUI();
     }
 
+    public void IncreaseLife()
+    {
+        livesLeft = Mathf.Min(9, livesLeft + 1); // Prevent going above 9
+        UpdateLivesUI();
+    }
+
     public void ResetLives(int value = 9)
     {
         livesLeft = value;
