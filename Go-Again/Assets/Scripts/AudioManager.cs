@@ -15,6 +15,12 @@ public class AudioClipEntry
     public float endTime = -1f; // -1 means play to end
     [Range(0f, 1f)]
     public float volume = 1f;
+
+    [Header("Pitch Variation")]
+    [Range(0.1f, 3f)]
+    public float minPitch = 1f;
+    [Range(0.1f, 3f)]
+    public float maxPitch = 1f;
 }
 
 public class AudioManager : MonoBehaviour
@@ -74,11 +80,15 @@ public class AudioManager : MonoBehaviour
         source.volume = Mathf.Clamp01(entry.volume);
         source.spatialBlend = entry.is3D ? 1.0f : 0.0f;
         source.transform.position = positionOverride ?? Vector3.zero;
+
+        float pitch = Random.Range(entry.minPitch, entry.maxPitch);
+        source.pitch = pitch;
+
         source.time = Mathf.Clamp(entry.startTime, 0f, clip.length);
         source.Play();
 
         float effectiveEnd = (entry.endTime > 0f && entry.endTime > entry.startTime) ? entry.endTime : clip.length;
-        float duration = Mathf.Min(effectiveEnd - entry.startTime, clip.length - entry.startTime);
+        float duration = Mathf.Min(effectiveEnd - entry.startTime, clip.length - entry.startTime) / pitch;
 
         if (!entry.isLooping)
         {
