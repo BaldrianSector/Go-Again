@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
+  m_FogColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.06
+  m_FogDensity: 0.047
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
@@ -18367,7 +18367,7 @@ Transform:
   m_GameObject: {fileID: 346100913}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00043001017, y: -0.7071064, z: 0.0004304647, w: 0.707107}
-  m_LocalPosition: {x: 6.5800533, y: 22.67, z: 100.41}
+  m_LocalPosition: {x: 6.5800533, y: 22.67, z: 94.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
