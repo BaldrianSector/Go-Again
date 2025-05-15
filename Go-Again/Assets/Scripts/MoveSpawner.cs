@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class MoverSwapLogic : MonoBehaviour
 {
+    private void Start()
+    {
+        AudioManager.Instance.Play("portalAmbient");
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -11,12 +15,10 @@ public class MoverSwapLogic : MonoBehaviour
             if (respawnObject != null && respawnObject != gameObject)
             {
                 GameManager.instance.ResetLives();
-                
+
                 Vector3 tempPosition = transform.position;
                 transform.position = respawnObject.transform.position;
                 respawnObject.transform.position = tempPosition;
-
-                AudioManager.Instance.Play("checkpoint");
 
                 Debug.Log("Swapped Mover with Respawn.");
             }
