@@ -40,9 +40,6 @@ public class CollisionLogic : MonoBehaviour
 
     public void TriggerDeath()
     {
-        // Increment death count in GameManager
-        GameManager.instance.RegisterDeath();
-
         Vector3 deathPosition = transform.position;
         Quaternion deathRotation = transform.rotation;
 
@@ -65,6 +62,9 @@ public class CollisionLogic : MonoBehaviour
                 return;
             }
         }
+
+        // Increment death count in GameManager
+        GameManager.instance.RegisterDeath();
 
         // Offset the ghost's position slightly above the ground
         Vector3 offsetDeathPosition = deathPosition + new Vector3(0, 0.48f, 0);
