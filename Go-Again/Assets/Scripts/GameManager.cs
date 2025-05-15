@@ -13,8 +13,12 @@ public class GameManager : MonoBehaviour
 
     [Header("Lives and Time")]
     public int livesLeft = 9;
-    public TextMeshProUGUI livesText; // TMP text
-    public TextMeshProUGUI timeText;  // TMP text
+    public TextMeshProUGUI livesText;
+    public TextMeshProUGUI timeText;
+
+    [Header("Win/Lose UI")]
+    public TextMeshProUGUI winText;
+    public TextMeshProUGUI loseText;
 
     private Vector3 lastPosition;
 
@@ -31,6 +35,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         ResetLives();
+        HideEndTexts();
     }
 
     void Update()
@@ -56,13 +61,16 @@ public class GameManager : MonoBehaviour
 
     public void DecreaseLife()
     {
-        livesLeft = Mathf.Max(0, livesLeft - 1); // Prevent going below 0
+        livesLeft = Mathf.Max(0, livesLeft - 1);
         UpdateLivesUI();
+
+        if (livesLeft == 0)
+            TriggerLose();
     }
 
     public void IncreaseLife()
     {
-        livesLeft = Mathf.Min(9, livesLeft + 1); // Prevent going above 9
+        livesLeft = Mathf.Min(9, livesLeft + 1);
         UpdateLivesUI();
     }
 
@@ -70,6 +78,7 @@ public class GameManager : MonoBehaviour
     {
         livesLeft = value;
         UpdateLivesUI();
+        HideEndTexts();
     }
 
     public void ResetTime()
@@ -81,13 +90,29 @@ public class GameManager : MonoBehaviour
     private void UpdateLivesUI()
     {
         if (livesText != null)
-            livesText.text = $"Lives: {livesLeft} / 9";
+            livesText.text = $"Lives: {livesLeft}/9";
     }
 
     private void UpdateTimeUI()
     {
         if (timeText != null)
             timeText.text = $"Time: {timeInLevel:F1}s";
+    }
+
+    public void TriggerWin()
+    {
+        if (winText != null) winText.gameObject.SetActive(true);
+    }
+
+    private void TriggerLose()
+    {
+        if (loseText != null) loseText.gameObject.SetActive(true);
+    }
+
+    private void HideEndTexts()
+    {
+        if (winText != null) winText.gameObject.SetActive(false);
+        if (loseText != null) loseText.gameObject.SetActive(false);
     }
 
     Transform GetPlayer() => GameObject.FindWithTag("Player")?.transform;
