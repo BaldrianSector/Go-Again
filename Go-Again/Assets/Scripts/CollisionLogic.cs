@@ -34,6 +34,14 @@ public class CollisionLogic : MonoBehaviour
         {
             Debug.Log("Entered Lava trigger – triggering VFX + death.");
             triggerAnimation.TriggerVFX();
+            AudioManager.Instance.Play("spikeHit");
+            TriggerDeath();
+        }
+        if (other.CompareTag("OOB"))
+        {
+            Debug.Log("Entered OOB trigger – triggering VFX + death.");
+            triggerAnimation.TriggerVFX();
+            AudioManager.Instance.Play("meow");
             TriggerDeath();
         }
     }
@@ -92,6 +100,9 @@ public class CollisionLogic : MonoBehaviour
     {
         // Disable collider to avoid unwanted collision during teleport
         if (playerCollider != null) playerCollider.enabled = false;
+
+        // Play respawn sound
+        AudioManager.Instance.Play("respawn");
 
         GameObject respawnPoint = GameObject.FindGameObjectWithTag("Respawn");
         if (respawnPoint != null)
