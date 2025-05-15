@@ -16,6 +16,8 @@ public class MoverSwapLogic : MonoBehaviour
                 transform.position = respawnObject.transform.position;
                 respawnObject.transform.position = tempPosition;
 
+                AudioManager.Instance.Play("checkpoint");
+
                 Debug.Log("Swapped Mover with Respawn.");
             }
             else

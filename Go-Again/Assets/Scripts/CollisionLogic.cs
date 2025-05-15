@@ -101,6 +101,9 @@ public class CollisionLogic : MonoBehaviour
         // Disable collider to avoid unwanted collision during teleport
         if (playerCollider != null) playerCollider.enabled = false;
 
+        // Play respawn sound
+        AudioManager.Instance.Play("respawn");
+
         GameObject respawnPoint = GameObject.FindGameObjectWithTag("Respawn");
         if (respawnPoint != null)
         {
