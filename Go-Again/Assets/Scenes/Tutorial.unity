@@ -44495,7 +44495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8320858697592966338, guid: f8c1f6769a1b6449db6ec20b57d45df1, type: 3}
       propertyPath: audioClips.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8320858697592966338, guid: f8c1f6769a1b6449db6ec20b57d45df1, type: 3}
       propertyPath: audioClips.Array.data[0].clip
@@ -44522,6 +44522,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 0f3fdf972f11845b1ba4ceac5a702232, type: 3}
     - target: {fileID: 8320858697592966338, guid: f8c1f6769a1b6449db6ec20b57d45df1, type: 3}
+      propertyPath: audioClips.Array.data[6].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a0df9a36c0ef74ea29bb57a399b73a76, type: 3}
+    - target: {fileID: 8320858697592966338, guid: f8c1f6769a1b6449db6ec20b57d45df1, type: 3}
+      propertyPath: audioClips.Array.data[6].is3D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8320858697592966338, guid: f8c1f6769a1b6449db6ec20b57d45df1, type: 3}
       propertyPath: audioClips.Array.data[1].volume
       value: 0.2
       objectReference: {fileID: 0}
@@ -44540,6 +44548,10 @@ PrefabInstance:
     - target: {fileID: 8320858697592966338, guid: f8c1f6769a1b6449db6ec20b57d45df1, type: 3}
       propertyPath: audioClips.Array.data[5].volume
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8320858697592966338, guid: f8c1f6769a1b6449db6ec20b57d45df1, type: 3}
+      propertyPath: audioClips.Array.data[6].volume
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 8320858697592966338, guid: f8c1f6769a1b6449db6ec20b57d45df1, type: 3}
       propertyPath: audioClips.Array.data[0].maxPitch
@@ -44632,6 +44644,10 @@ PrefabInstance:
     - target: {fileID: 8320858697592966338, guid: f8c1f6769a1b6449db6ec20b57d45df1, type: 3}
       propertyPath: audioClips.Array.data[5].customName
       value: backgroundMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 8320858697592966338, guid: f8c1f6769a1b6449db6ec20b57d45df1, type: 3}
+      propertyPath: audioClips.Array.data[6].customName
+      value: portalAmbient
       objectReference: {fileID: 0}
     - target: {fileID: 8978544055065065372, guid: f8c1f6769a1b6449db6ec20b57d45df1, type: 3}
       propertyPath: m_Name
