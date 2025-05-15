@@ -90,13 +90,22 @@ public class GameManager : MonoBehaviour
     private void UpdateLivesUI()
     {
         if (livesText != null)
-            livesText.text = $"Lives: {livesLeft}/9";
+            livesText.text = $"x{livesLeft}";
     }
 
     private void UpdateTimeUI()
     {
-        if (timeText != null)
-            timeText.text = $"Time: {timeInLevel:F1}s";
+        if (timeText == null) return;
+
+        int totalSeconds = Mathf.FloorToInt(timeInLevel);
+        int hours = totalSeconds / 3600;
+        int minutes = (totalSeconds % 3600) / 60;
+        float seconds = timeInLevel % 60f;
+
+        if (hours > 0)
+            timeText.text = $"{hours:00}:{minutes:00}:{seconds:00.0}";
+        else
+            timeText.text = $"{minutes:00}:{seconds:00.0}";
     }
 
     public void TriggerWin()
