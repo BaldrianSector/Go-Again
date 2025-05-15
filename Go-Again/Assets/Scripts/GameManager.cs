@@ -57,6 +57,7 @@ public class GameManager : MonoBehaviour
     {
         deathCount++;
         DecreaseLife();
+        AudioManager.Instance.Play("meow");
     }
 
     public void DecreaseLife()
