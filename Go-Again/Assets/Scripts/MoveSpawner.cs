@@ -15,6 +15,7 @@ public class MoverSwapLogic : MonoBehaviour
             if (respawnObject != null && respawnObject != gameObject)
             {
                 GameManager.instance.ResetLives();
+                AudioManager.Instance.Play("checkpoint");
 
                 Vector3 tempPosition = transform.position;
                 transform.position = respawnObject.transform.position;
