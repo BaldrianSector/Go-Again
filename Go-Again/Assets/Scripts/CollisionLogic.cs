@@ -34,6 +34,14 @@ public class CollisionLogic : MonoBehaviour
         {
             Debug.Log("Entered Lava trigger – triggering VFX + death.");
             triggerAnimation.TriggerVFX();
+            AudioManager.Instance.Play("spikeHit");
+            TriggerDeath();
+        }
+        if (other.CompareTag("OOB"))
+        {
+            Debug.Log("Entered OOB trigger – triggering VFX + death.");
+            triggerAnimation.TriggerVFX();
+            AudioManager.Instance.Play("meow");
             TriggerDeath();
         }
     }

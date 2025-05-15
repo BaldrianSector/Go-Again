@@ -79,6 +79,7 @@ public class TriggerAnimation : MonoBehaviour
             if (!hasSpawnedParticles && currentTime >= particleTriggerTime)
             {
                 TriggerVFX();
+                AudioManager.Instance.Play("stabHit");
 
                 if (collisionLogic != null)
                 {
