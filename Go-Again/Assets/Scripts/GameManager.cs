@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
             lastPosition = Vector3.zero;
+            AudioManager.Instance.Play("backgroundMusic");
         }
         else
         {

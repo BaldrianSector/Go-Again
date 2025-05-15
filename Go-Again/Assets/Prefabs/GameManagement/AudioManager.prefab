@@ -46,9 +46,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioClips:
   - customName: meow
-    clip: {fileID: 8300000, guid: 907de587ea76440eda12d8eddf7081e6, type: 3}
+    clip: {fileID: 8300000, guid: d6e18121c35cb484a962c975cce1b6b7, type: 3}
     is3D: 0
     isLooping: 0
-    startTime: 0.3
+    startTime: 0.29
     endTime: 0
     volume: 0.5
+    minPitch: 1
+    maxPitch: 1.35
+  - customName: stabHit
+    clip: {fileID: 8300000, guid: 2de968560460e4069ac3a8d4155fe625, type: 3}
+    is3D: 0
+    isLooping: 0
+    startTime: 0.22
+    endTime: 0
+    volume: 0.2
+    minPitch: 1
+    maxPitch: 1
+  - customName: spikeHit
+    clip: {fileID: 8300000, guid: c9a7c9d0be47b4136b4c80eb2ee14d55, type: 3}
+    is3D: 0
+    isLooping: 0
+    startTime: 0.16
+    endTime: 0
+    volume: 0.3
+    minPitch: 1
+    maxPitch: 1
+  - customName: respawn
+    clip: {fileID: 8300000, guid: 6a766e0a911234a4584822acea5ac1fa, type: 3}
+    is3D: 0
+    isLooping: 0
+    startTime: 0.7
+    endTime: 0
+    volume: 0.35
+    minPitch: 1
+    maxPitch: 1
+  - customName: checkpoint
+    clip: {fileID: 8300000, guid: 3bffd3ad1ed04464dbfca9028c517e03, type: 3}
+    is3D: 0
+    isLooping: 0
+    startTime: 0.12
+    endTime: 0
+    volume: 0.3
+    minPitch: 1
+    maxPitch: 1
+  - customName: backgroundMusic
+    clip: {fileID: 8300000, guid: 0f3fdf972f11845b1ba4ceac5a702232, type: 3}
+    is3D: 0
+    isLooping: 1
+    startTime: 0
+    endTime: 0
+    volume: 0.6
+    minPitch: 1
+    maxPitch: 1
+  - customName: portalAmbient
+    clip: {fileID: 8300000, guid: a0df9a36c0ef74ea29bb57a399b73a76, type: 3}
+    is3D: 1
+    isLooping: 1
+    startTime: 0
+    endTime: 0
+    volume: 0.3
+    minPitch: 1
+    maxPitch: 1
