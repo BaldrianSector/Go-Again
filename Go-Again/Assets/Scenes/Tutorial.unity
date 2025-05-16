@@ -5077,6 +5077,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &74369205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7870950929495012253, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+  m_PrefabInstance: {fileID: 569765963}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &77717833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7695,6 +7700,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &142920586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4197987982774544915, guid: 212907312655a4443a025a304442c17c, type: 3}
+  m_PrefabInstance: {fileID: 511483676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &148576303
 Mesh:
   m_ObjectHideFlags: 0
@@ -8685,6 +8695,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &182256681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7475612991421728709, guid: 212907312655a4443a025a304442c17c, type: 3}
+  m_PrefabInstance: {fileID: 511483676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &186357091
 Mesh:
   m_ObjectHideFlags: 0
@@ -10945,6 +10960,12 @@ MonoBehaviour:
     _prefab: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle.prefab
   - _gameObject: {fileID: 2104227425}
     _prefab: Assets/Prefabs/GameLevelObjects/NoCubeZone.prefab
+  - _gameObject: {fileID: 1487906385}
+    _prefab: Assets/Prefabs/GameLevelObjects/SpawnMover.prefab
+  - _gameObject: {fileID: 74369205}
+    _prefab: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle.prefab
+  - _gameObject: {fileID: 743956860}
+    _prefab: Assets/Prefabs/GameLevelObjects/NoCubeZone.prefab
   - _gameObject: {fileID: 1020141378}
     _prefab: Assets/Prefabs/GameLevelObjects/SpawnMover.prefab
   - _gameObject: {fileID: 1410393967}
@@ -11013,17 +11034,17 @@ MonoBehaviour:
     _prefab: Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentCapsule_Unpack.prefab
   - _gameObject: {fileID: 1862494299}
     _prefab: Assets/Prefabs/Player/Cat_character_softbody.prefab
-  - _gameObject: {fileID: 1913638602}
-    _prefab: Assets/Antimo's private mappe/Cait_whiskers.fbx
-  - _gameObject: {fileID: 602460661}
-    _prefab: Assets/Antimo's private mappe/Cait_whiskers.fbx
-  - _gameObject: {fileID: 2090836329}
-    _prefab: Assets/Antimo's private mappe/Cait_whiskers.fbx
   - _gameObject: {fileID: 481811202}
+    _prefab: Assets/Antimo's private mappe/cait_hair.fbx
+  - _gameObject: {fileID: 1494001742}
     _prefab: Assets/Antimo's private mappe/cait_hair.fbx
   - _gameObject: {fileID: 219504903}
     _prefab: Assets/Antimo's private mappe/cait_hair.fbx
+  - _gameObject: {fileID: 182256681}
+    _prefab: Assets/Antimo's private mappe/cait_hair.fbx
   - _gameObject: {fileID: 1617467141}
+    _prefab: Assets/Antimo's private mappe/cait_hair.fbx
+  - _gameObject: {fileID: 142920586}
     _prefab: Assets/Antimo's private mappe/cait_hair.fbx
 --- !u!4 &211828661
 Transform:
@@ -29650,7 +29671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2119775930974504096, guid: 212907312655a4443a025a304442c17c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.34
+      value: -6.69
       objectReference: {fileID: 0}
     - target: {fileID: 2119775930974504096, guid: 212907312655a4443a025a304442c17c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -33099,6 +33120,110 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &569765963
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2135602489}
+    m_Modifications:
+    - target: {fileID: 5497641194980743728, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497641194980743728, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497641194980743728, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830295016953617865, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_Name
+      value: SpawnMover (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662474605641255883, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662474605641255883, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.735
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662474605641255883, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 44.091
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662474605641255883, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662474605641255883, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662474605641255883, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662474605641255883, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662474605641255883, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662474605641255883, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662474605641255883, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7246356487861254641, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7246356487861254641, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7246356487861254641, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811288841244844584, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.306
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811288841244844584, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811288841244844584, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811288841244844584, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022135696795450053, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5830295016953617865, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1487906387}
+  m_SourcePrefab: {fileID: 100100000, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
 --- !u!1 &570906091
 GameObject:
   m_ObjectHideFlags: 0
@@ -35092,6 +35217,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 597448554}
+    - target: {fileID: 1459604022357270671, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286206
+      objectReference: {fileID: 0}
+    - target: {fileID: 1459604022357270671, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: 'managedReferences[3358739011571286206]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cube
+      objectReference: {fileID: 0}
     - target: {fileID: 2014868865111731196, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -35099,6 +35232,34 @@ PrefabInstance:
     - target: {fileID: 2014868865111731196, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
       propertyPath: m_VersionIndex
       value: 7866
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173371510907986461, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286207
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173371510907986461, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: 'managedReferences[3358739011571286207]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477934512356138359, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286209
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477934512356138359, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: 'managedReferences[3358739011571286209]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518140010097041791, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: m_Size.y
+      value: 0.22315598
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518140010097041791, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: m_Center.y
+      value: 0.0877552
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518140010097041791, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3439484680621154621, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
       propertyPath: m_Mesh
@@ -35140,6 +35301,26 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 7866
       objectReference: {fileID: 0}
+    - target: {fileID: 6531449355462249608, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531449355462249608, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6531449355462249608, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933192683065677142, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286208
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933192683065677142, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
+      propertyPath: 'managedReferences[3358739011571286208]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cube
+      objectReference: {fileID: 0}
     - target: {fileID: 7294453556346879496, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -35174,15 +35355,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8396939136446852927, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8396939136446852927, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8396939136446852927, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8396939136446852927, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -36029,11 +36210,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &602460661 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2888312710904426342, guid: 212907312655a4443a025a304442c17c, type: 3}
-  m_PrefabInstance: {fileID: 511483676}
-  m_PrefabAsset: {fileID: 0}
 --- !u!43 &607001957
 Mesh:
   m_ObjectHideFlags: 0
@@ -41852,7 +42028,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1151616384}
+  m_Mesh: {fileID: 2096137897}
 --- !u!33 &718080883
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -42671,7 +42847,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736103767}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -11.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -42685,6 +42861,11 @@ Transform:
   - {fileID: 700559436}
   m_Father: {fileID: 753670826}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &743956860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6566380107037042374, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+  m_PrefabInstance: {fileID: 569765963}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &753090968
 Mesh:
   m_ObjectHideFlags: 0
@@ -48620,6 +48801,171 @@ Mesh:
   m_LocalAABB:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.5, y: 1, z: 0.43301272}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!43 &973755547
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-25420(Clone)
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 2, y: 0.25, z: 2}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: 000000c0000080be0000004000000000000000000000803f000080bf0000000000000000000080bf000080400000003f00000040000080be0000004000000000000000000000803f000080bf0000000000000000000080bf000000000000003f000000c00000803e0000004000000000000000000000803f000080bf0000000000000000000080bf000080400000803f000000400000803e0000004000000000000000000000803f000080bf0000000000000000000080bf000000000000803f00000040000080be000000400000803f000000000000000000000000000000000000803f000080bf000080400000003f00000040000080be000000c00000803f000000000000000000000000000000000000803f000080bf000000000000003f000000400000803e000000400000803f000000000000000000000000000000000000803f000080bf000080400000803f000000400000803e000000c00000803f000000000000000000000000000000000000803f000080bf000000000000803f00000040000080be000000c00000000000000000000080bf0000803f0000000000000000000080bf000080400000003f000000c0000080be000000c00000000000000000000080bf0000803f0000000000000000000080bf000000000000003f000000400000803e000000c00000000000000000000080bf0000803f0000000000000000000080bf000080400000803f000000c00000803e000000c00000000000000000000080bf0000803f0000000000000000000080bf000000000000803f000000c0000080be000000c0000080bf00000000000000000000000000000000000080bf000080bf000080400000003f000000c0000080be00000040000080bf00000000000000000000000000000000000080bf000080bf000000000000003f000000c00000803e000000c0000080bf00000000000000000000000000000000000080bf000080bf000080400000803f000000c00000803e00000040000080bf00000000000000000000000000000000000080bf000080bf000000000000803f000000c00000803e00000040000000000000803f000000000000803f0000000000000000000080bf000000000000803f000000400000803e00000040000000000000803f000000000000803f0000000000000000000080bf000080400000803f000000c00000803e000000c0000000000000803f000000000000803f0000000000000000000080bf00000000000040c0000000400000803e000000c0000000000000803f000000000000803f0000000000000000000080bf00008040000040c0000000c0000080be000000c000000000000080bf00000000000080bf0000000000000000000080bf00008040000040c000000040000080be000000c000000000000080bf00000000000080bf0000000000000000000080bf00000000000040c0000000c0000080be0000004000000000000080bf00000000000080bf0000000000000000000080bf000080400000803f00000040000080be0000004000000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 2, y: 0.25, z: 2}
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
@@ -59840,7 +60186,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 2096137897}
+  m_Mesh: {fileID: 776349032}
 --- !u!33 &1235543144
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -73247,6 +73593,358 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1 &1427636809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1427636810}
+  - component: {fileID: 1427636815}
+  - component: {fileID: 1427636814}
+  - component: {fileID: 1427636813}
+  - component: {fileID: 1427636812}
+  - component: {fileID: 1427636811}
+  m_Layer: 0
+  m_Name: Cube (50)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1427636810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427636809}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000004768371}
+  m_LocalPosition: {x: 10.073, y: 16, z: 44.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1892492136}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!64 &1427636811
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427636809}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 973755547}
+--- !u!33 &1427636812
+MeshFilter:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427636809}
+  m_Mesh: {fileID: 973755547}
+--- !u!23 &1427636813
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427636809}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1427636814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427636809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Shape:
+    rid: 2933914017751892161
+  m_ShapeRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_UnmodifiedMeshVersion: 5647
+  m_Size: {x: 4, y: 0.5, z: 4}
+  m_LocalCenter: {x: 0, y: 0, z: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2933914017751892161
+      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
+      data: 
+--- !u!114 &1427636815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427636809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MeshFormatVersion: 2
+  m_Faces:
+  - m_Indexes: 000000000100000002000000010000000300000002000000
+    m_SmoothingGroup: 0
+    m_Uv:
+      m_UseWorldSpace: 0
+      m_FlipU: 0
+      m_FlipV: 0
+      m_SwapUV: 0
+      m_Fill: 1
+      m_Scale: {x: 1, y: 1}
+      m_Offset: {x: 0, y: 0}
+      m_Rotation: 0
+      m_Anchor: 0
+    m_Material: {fileID: 0}
+    m_SubmeshIndex: 0
+    m_ManualUV: 0
+    elementGroup: -1
+    m_TextureGroup: -1
+  - m_Indexes: 040000000500000006000000050000000700000006000000
+    m_SmoothingGroup: 0
+    m_Uv:
+      m_UseWorldSpace: 0
+      m_FlipU: 0
+      m_FlipV: 0
+      m_SwapUV: 0
+      m_Fill: 1
+      m_Scale: {x: 1, y: 1}
+      m_Offset: {x: 0, y: 0}
+      m_Rotation: 0
+      m_Anchor: 0
+    m_Material: {fileID: 0}
+    m_SubmeshIndex: 0
+    m_ManualUV: 0
+    elementGroup: -1
+    m_TextureGroup: -1
+  - m_Indexes: 08000000090000000a000000090000000b0000000a000000
+    m_SmoothingGroup: 0
+    m_Uv:
+      m_UseWorldSpace: 0
+      m_FlipU: 0
+      m_FlipV: 0
+      m_SwapUV: 0
+      m_Fill: 1
+      m_Scale: {x: 1, y: 1}
+      m_Offset: {x: 0, y: 0}
+      m_Rotation: 0
+      m_Anchor: 0
+    m_Material: {fileID: 0}
+    m_SubmeshIndex: 0
+    m_ManualUV: 0
+    elementGroup: -1
+    m_TextureGroup: -1
+  - m_Indexes: 0c0000000d0000000e0000000d0000000f0000000e000000
+    m_SmoothingGroup: 0
+    m_Uv:
+      m_UseWorldSpace: 0
+      m_FlipU: 0
+      m_FlipV: 0
+      m_SwapUV: 0
+      m_Fill: 1
+      m_Scale: {x: 1, y: 1}
+      m_Offset: {x: 0, y: 0}
+      m_Rotation: 0
+      m_Anchor: 0
+    m_Material: {fileID: 0}
+    m_SubmeshIndex: 0
+    m_ManualUV: 0
+    elementGroup: -1
+    m_TextureGroup: -1
+  - m_Indexes: 100000001100000012000000110000001300000012000000
+    m_SmoothingGroup: 0
+    m_Uv:
+      m_UseWorldSpace: 0
+      m_FlipU: 0
+      m_FlipV: 0
+      m_SwapUV: 0
+      m_Fill: 1
+      m_Scale: {x: 1, y: 1}
+      m_Offset: {x: 0, y: 0}
+      m_Rotation: 0
+      m_Anchor: 0
+    m_Material: {fileID: 0}
+    m_SubmeshIndex: 0
+    m_ManualUV: 0
+    elementGroup: -1
+    m_TextureGroup: -1
+  - m_Indexes: 140000001500000016000000150000001700000016000000
+    m_SmoothingGroup: 0
+    m_Uv:
+      m_UseWorldSpace: 0
+      m_FlipU: 0
+      m_FlipV: 0
+      m_SwapUV: 0
+      m_Fill: 1
+      m_Scale: {x: 1, y: 1}
+      m_Offset: {x: 0, y: 0}
+      m_Rotation: 0
+      m_Anchor: 0
+    m_Material: {fileID: 0}
+    m_SubmeshIndex: 0
+    m_ManualUV: 0
+    elementGroup: -1
+    m_TextureGroup: -1
+  m_SharedVertices:
+  - m_Vertices: 000000000d00000016000000
+  - m_Vertices: 010000000400000017000000
+  - m_Vertices: 020000000f00000010000000
+  - m_Vertices: 030000000600000011000000
+  - m_Vertices: 050000000800000015000000
+  - m_Vertices: 070000000a00000013000000
+  - m_Vertices: 090000000c00000014000000
+  - m_Vertices: 0b0000000e00000012000000
+  m_SharedTextures: []
+  m_Positions:
+  - {x: -2, y: -0.25, z: 2}
+  - {x: 2, y: -0.25, z: 2}
+  - {x: -2, y: 0.25, z: 2}
+  - {x: 2, y: 0.25, z: 2}
+  - {x: 2, y: -0.25, z: 2}
+  - {x: 2, y: -0.25, z: -2}
+  - {x: 2, y: 0.25, z: 2}
+  - {x: 2, y: 0.25, z: -2}
+  - {x: 2, y: -0.25, z: -2}
+  - {x: -2, y: -0.25, z: -2}
+  - {x: 2, y: 0.25, z: -2}
+  - {x: -2, y: 0.25, z: -2}
+  - {x: -2, y: -0.25, z: -2}
+  - {x: -2, y: -0.25, z: 2}
+  - {x: -2, y: 0.25, z: -2}
+  - {x: -2, y: 0.25, z: 2}
+  - {x: -2, y: 0.25, z: 2}
+  - {x: 2, y: 0.25, z: 2}
+  - {x: -2, y: 0.25, z: -2}
+  - {x: 2, y: 0.25, z: -2}
+  - {x: -2, y: -0.25, z: -2}
+  - {x: 2, y: -0.25, z: -2}
+  - {x: -2, y: -0.25, z: 2}
+  - {x: 2, y: -0.25, z: 2}
+  m_Textures0:
+  - {x: 4, y: 0.5}
+  - {x: 0, y: 0.5}
+  - {x: 4, y: 1}
+  - {x: 0, y: 1}
+  - {x: 4, y: 0.5}
+  - {x: 0, y: 0.5}
+  - {x: 4, y: 1}
+  - {x: 0, y: 1}
+  - {x: 4, y: 0.5}
+  - {x: 0, y: 0.5}
+  - {x: 4, y: 1}
+  - {x: 0, y: 1}
+  - {x: 4, y: 0.5}
+  - {x: 0, y: 0.5}
+  - {x: 4, y: 1}
+  - {x: 0, y: 1}
+  - {x: 0, y: 1}
+  - {x: 4, y: 1}
+  - {x: 0, y: -3}
+  - {x: 4, y: -3}
+  - {x: 4, y: -3}
+  - {x: 0, y: -3}
+  - {x: 4, y: 1}
+  - {x: 0, y: 1}
+  m_Textures2: []
+  m_Textures3: []
+  m_Tangents:
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: 0, y: 0, z: 1, w: -1}
+  - {x: 0, y: 0, z: 1, w: -1}
+  - {x: 0, y: 0, z: 1, w: -1}
+  - {x: 0, y: 0, z: 1, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: 0, y: 0, z: -1, w: -1}
+  - {x: 0, y: 0, z: -1, w: -1}
+  - {x: 0, y: 0, z: -1, w: -1}
+  - {x: 0, y: 0, z: -1, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  m_Colors: []
+  m_UnwrapParameters:
+    m_HardAngle: 88
+    m_PackMargin: 20
+    m_AngleError: 8
+    m_AreaError: 15
+  m_PreserveMeshAssetOnDestroy: 0
+  assetGuid: 
+  m_Mesh: {fileID: 973755547}
+  m_VersionIndex: 5647
+  m_IsSelectable: 1
+  m_SelectedFaces: 
+  m_SelectedEdges: []
+  m_SelectedVertices: 
 --- !u!43 &1430461684
 Mesh:
   m_ObjectHideFlags: 0
@@ -74126,7 +74824,7 @@ PrefabInstance:
     - target: {fileID: 1242532930433230263, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1575164659}
+      objectReference: {fileID: 0}
     - target: {fileID: 1449547178750707360, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -74135,10 +74833,30 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 4355
       objectReference: {fileID: 0}
+    - target: {fileID: 1566718843240838540, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566718843240838540, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566718843240838540, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2228901715502236516, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1797486731}
+    - target: {fileID: 2460019288052667605, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286154
+      objectReference: {fileID: 0}
+    - target: {fileID: 2460019288052667605, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: 'managedReferences[3358739011571286154]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cube
+      objectReference: {fileID: 0}
     - target: {fileID: 2623924591980122485, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -74146,6 +74864,26 @@ PrefabInstance:
     - target: {fileID: 2623924591980122485, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_VersionIndex
       value: 5117
+      objectReference: {fileID: 0}
+    - target: {fileID: 3103636303283674395, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3103636303283674395, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3514209364474390639, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595717413191647276, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286152
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595717413191647276, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: 'managedReferences[3358739011571286152]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cube
       objectReference: {fileID: 0}
     - target: {fileID: 4056161492306337213, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_Mesh
@@ -74158,18 +74896,46 @@ PrefabInstance:
     - target: {fileID: 4244574178132894092, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 630624810}
+      objectReference: {fileID: 0}
+    - target: {fileID: 4432753206638513440, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286151
+      objectReference: {fileID: 0}
+    - target: {fileID: 4432753206638513440, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: 'managedReferences[3358739011571286151]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cube
+      objectReference: {fileID: 0}
     - target: {fileID: 4956793922118839120, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2133709695}
+    - target: {fileID: 5157612737084646302, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286153
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157612737084646302, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: 'managedReferences[3358739011571286153]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557329362689427069, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557329362689427069, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557329362689427069, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6420467465845528619, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 536013860}
     - target: {fileID: 8689252176099819985, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9
+      value: 6.206723
       objectReference: {fileID: 0}
     - target: {fileID: 8689252176099819985, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_LocalPosition.y
@@ -74185,7 +74951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8689252176099819985, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8689252176099819985, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_LocalRotation.y
@@ -74193,7 +74959,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8689252176099819985, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8689252176099819985, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -74210,11 +74976,11 @@ PrefabInstance:
     - target: {fileID: 8814036059899865247, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1282147481}
+      objectReference: {fileID: 0}
     - target: {fileID: 9104149866935104119, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1674146114}
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6420467465845528619, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
     - {fileID: 1098148435947462119, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
@@ -75479,6 +76245,31 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1487906385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5830295016953617865, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+  m_PrefabInstance: {fileID: 569765963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1487906386 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6662474605641255883, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+  m_PrefabInstance: {fileID: 569765963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1487906387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487906385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f6582912d33547cb83ac30f51185b87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  mover: {fileID: 5830295016953617865, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+  positionOffset: {x: 0, y: 1.625, z: 0}
 --- !u!43 &1489547010
 Mesh:
   m_ObjectHideFlags: 0
@@ -76628,6 +77419,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1 &1494001742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4264853050654072312, guid: 212907312655a4443a025a304442c17c, type: 3}
+  m_PrefabInstance: {fileID: 511483676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1500851720
 Mesh:
   m_ObjectHideFlags: 0
@@ -78286,11 +79082,27 @@ PrefabInstance:
     - target: {fileID: 14187237203123483, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1350958996}
+      objectReference: {fileID: 0}
+    - target: {fileID: 33834681740044701, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286203
+      objectReference: {fileID: 0}
+    - target: {fileID: 33834681740044701, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286203]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 33834681740044701, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286203].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 33834681740044701, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286203].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 82469137877950600, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 107829104}
+      objectReference: {fileID: 0}
     - target: {fileID: 151728569219707053, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78298,6 +79110,14 @@ PrefabInstance:
     - target: {fileID: 151728569219707053, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_VersionIndex
       value: 14392
+      objectReference: {fileID: 0}
+    - target: {fileID: 160058105856580211, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286155
+      objectReference: {fileID: 0}
+    - target: {fileID: 160058105856580211, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286155]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cube
       objectReference: {fileID: 0}
     - target: {fileID: 163346691111093791, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
@@ -78314,11 +79134,59 @@ PrefabInstance:
     - target: {fileID: 239549275970496846, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1988573464}
+      objectReference: {fileID: 0}
     - target: {fileID: 239975525004017924, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1723637850}
+    - target: {fileID: 253315740097465449, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286205
+      objectReference: {fileID: 0}
+    - target: {fileID: 253315740097465449, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286205]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 253315740097465449, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286205].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 253315740097465449, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286205].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 267034408190245129, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286175
+      objectReference: {fileID: 0}
+    - target: {fileID: 267034408190245129, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286175]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 267034408190245129, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286175].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 267034408190245129, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286175].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 353107964354593345, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 353107964354593345, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 355562358576140913, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 355562358576140913, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 360414624514632166, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78331,10 +79199,42 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 868195656}
+    - target: {fileID: 407099099434326836, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407099099434326836, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455260798559784313, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455260798559784313, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 459688888779051255, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 224862556}
+    - target: {fileID: 460588432268604217, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286195
+      objectReference: {fileID: 0}
+    - target: {fileID: 460588432268604217, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286195]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 460588432268604217, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286195].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 460588432268604217, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286195].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 479680395769454672, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78367,10 +79267,50 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 566228481547150551, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566228481547150551, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 698905295204166570, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 719902476}
+      objectReference: {fileID: 0}
+    - target: {fileID: 731704983511434841, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 731704983511434841, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 808324454035997572, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 808324454035997572, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 826292266114668551, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286183
+      objectReference: {fileID: 0}
+    - target: {fileID: 826292266114668551, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286183]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 826292266114668551, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286183].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 826292266114668551, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286183].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 835623017278503003, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78386,23 +79326,103 @@ PrefabInstance:
     - target: {fileID: 962414984799276998, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 375543511}
+      objectReference: {fileID: 0}
     - target: {fileID: 979248044468201253, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1626993812}
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075304079217539447, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286187
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075304079217539447, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286187]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075304079217539447, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286187].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075304079217539447, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286187].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1082781016106690908, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 613870690}
+      objectReference: {fileID: 0}
     - target: {fileID: 1109708699612421870, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 951169463}
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125874477048744198, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286188
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125874477048744198, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286188]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125874477048744198, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286188].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125874477048744198, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286188].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1250726321423058142, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 259948369}
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260349713530730081, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286194
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260349713530730081, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286194]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260349713530730081, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286194].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260349713530730081, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286194].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279228432026512897, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286204
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279228432026512897, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286204]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279228432026512897, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286204].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279228432026512897, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286204].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1288740579080309961, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1288740579080309961, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349211813003972748, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349211813003972748, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1361417206752275846, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78419,6 +79439,30 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2144096572}
+    - target: {fileID: 1482124848642546024, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482124848642546024, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551681639433690467, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286174
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551681639433690467, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286174]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551681639433690467, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286174].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551681639433690467, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286174].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1590021523963560979, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78438,11 +79482,19 @@ PrefabInstance:
     - target: {fileID: 1685148819031538210, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 594239909}
+      objectReference: {fileID: 0}
     - target: {fileID: 1714166434923458456, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2102809586}
+    - target: {fileID: 1737910109384782985, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737910109384782985, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1746095861559872111, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78459,14 +79511,86 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 1779671067734983788, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779671067734983788, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823910216882471612, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823910216882471612, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825994337629775653, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286186
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825994337629775653, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286186]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825994337629775653, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286186].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825994337629775653, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286186].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1845901764049040340, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1664592688}
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971351858302929, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286161
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971351858302929, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286161]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971351858302929, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286161].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916971351858302929, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286161].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918786125766712738, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918786125766712738, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926649459997072517, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926649459997072517, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1964976755546017044, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 485184071}
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983466298417939463, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983466298417939463, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2007450000205088016, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78474,6 +79598,14 @@ PrefabInstance:
     - target: {fileID: 2007450000205088016, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_VersionIndex
       value: 14392
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037464906838141493, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037464906838141493, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2051465776265620811, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
@@ -78486,11 +79618,11 @@ PrefabInstance:
     - target: {fileID: 2058285408379321318, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1384181444}
+      objectReference: {fileID: 0}
     - target: {fileID: 2131162637100172238, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1400988760}
+      objectReference: {fileID: 0}
     - target: {fileID: 2169382869004090886, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78498,7 +79630,31 @@ PrefabInstance:
     - target: {fileID: 2201559678962888650, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 164033678}
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326250126326550134, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326250126326550134, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394838440135392979, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286182
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394838440135392979, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286182]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394838440135392979, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286182].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394838440135392979, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286182].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2475409291055486814, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78515,10 +79671,26 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 2496278541546000450, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286169
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496278541546000450, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286169]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496278541546000450, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286169].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496278541546000450, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286169].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2529491484690699743, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 186357091}
+      objectReference: {fileID: 0}
     - target: {fileID: 2565871653789677991, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78527,6 +79699,22 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 2636902486115453894, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636902486115453894, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286157]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636902486115453894, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286157].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636902486115453894, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286157].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2700216484677214853, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78534,19 +79722,35 @@ PrefabInstance:
     - target: {fileID: 2748474495071757993, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 15852450}
+      objectReference: {fileID: 0}
     - target: {fileID: 2781753598287644815, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1649661362}
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793857725209550688, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286165
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793857725209550688, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286165]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793857725209550688, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286165].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793857725209550688, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286165].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2818820808375926452, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 684979847}
+      objectReference: {fileID: 0}
     - target: {fileID: 2868032150607693555, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 327700107}
+      objectReference: {fileID: 0}
     - target: {fileID: 2912246777106884771, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78559,6 +79763,14 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 2959013450332971512, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959013450332971512, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2967319381735574119, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78567,14 +79779,30 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 2975975503602312510, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2975975503602312510, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2980967647232317089, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 241959031}
+      objectReference: {fileID: 0}
     - target: {fileID: 2983346986138130317, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1008081232}
+    - target: {fileID: 3003859249297615056, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003859249297615056, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3045628633988227492, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78583,6 +79811,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1430461684}
+    - target: {fileID: 3099152611501361734, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3099152611501361734, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3149836090431793494, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78590,7 +79826,39 @@ PrefabInstance:
     - target: {fileID: 3211566927524153180, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 2498170}
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268532807985713655, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286164
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268532807985713655, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286164]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268532807985713655, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286164].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268532807985713655, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286164].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278662868109675661, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286177
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278662868109675661, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286177]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278662868109675661, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286177].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278662868109675661, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286177].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3284493549368087506, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78599,22 +79867,62 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 3303121987730185737, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303121987730185737, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3334829888555121835, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1412519151}
+    - target: {fileID: 3351542768644264509, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3351542768644264509, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3400892755201871306, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1070344742}
+      objectReference: {fileID: 0}
+    - target: {fileID: 3471833084091877026, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3471833084091877026, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3481222094408864997, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 613005287}
+    - target: {fileID: 3512013436025935936, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286173
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512013436025935936, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286173]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512013436025935936, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286173].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512013436025935936, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286173].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3516966603541303441, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1931473173}
+      objectReference: {fileID: 0}
     - target: {fileID: 3603101127695234705, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78623,6 +79931,22 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 3647935298111132682, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286159
+      objectReference: {fileID: 0}
+    - target: {fileID: 3647935298111132682, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286159]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3647935298111132682, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286159].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3647935298111132682, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286159].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3656973198081608519, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78630,15 +79954,39 @@ PrefabInstance:
     - target: {fileID: 3714512631369416662, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 2111691889}
+      objectReference: {fileID: 0}
     - target: {fileID: 3721228476295119500, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1181474645}
+      objectReference: {fileID: 0}
+    - target: {fileID: 3844929249032176123, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286168
+      objectReference: {fileID: 0}
+    - target: {fileID: 3844929249032176123, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286168]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3844929249032176123, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286168].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3844929249032176123, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286168].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3849823997073674280, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 335591894}
+    - target: {fileID: 3851437152632937051, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3851437152632937051, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3888988930562376398, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78659,10 +80007,82 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2.168
       objectReference: {fileID: 0}
+    - target: {fileID: 3908671169180485156, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3908671169180485156, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3939630029569081821, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286160
+      objectReference: {fileID: 0}
+    - target: {fileID: 3939630029569081821, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286160]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3939630029569081821, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286160].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3939630029569081821, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286160].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3946448644419834448, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3946448644419834448, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977763831603967695, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286158
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977763831603967695, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286158]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977763831603967695, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286158].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977763831603967695, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286158].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3979019168414389293, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 473424347}
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020767839102985131, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020767839102985131, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034143161090585158, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286179
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034143161090585158, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286179]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034143161090585158, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286179].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034143161090585158, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286179].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4099889421794237111, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78683,6 +80103,22 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 4172139513459824603, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286176
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172139513459824603, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286176]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172139513459824603, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286176].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172139513459824603, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286176].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4173056065613358894, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.71
@@ -78695,10 +80131,54 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 4173056065613358894, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173056065613358894, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173056065613358894, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4244801379273710730, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4244801379273710730, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261455343443840000, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261455343443840000, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270366341448984859, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270366341448984859, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288156704626475784, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288156704626475784, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4292349844748671451, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 414645797}
+      objectReference: {fileID: 0}
     - target: {fileID: 4310419656258383599, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78706,7 +80186,15 @@ PrefabInstance:
     - target: {fileID: 4324610220856274297, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1530293827}
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375452041390050363, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375452041390050363, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4389013636074853364, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78714,6 +80202,46 @@ PrefabInstance:
     - target: {fileID: 4389013636074853364, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_VersionIndex
       value: 14392
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421564830963408532, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286201
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421564830963408532, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286201]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 4427894518516843532, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286184
+      objectReference: {fileID: 0}
+    - target: {fileID: 4427894518516843532, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286184]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 4427894518516843532, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286184].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4427894518516843532, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286184].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4492239663727614867, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286162
+      objectReference: {fileID: 0}
+    - target: {fileID: 4492239663727614867, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286162]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 4492239663727614867, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286162].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4492239663727614867, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286162].m_NumberOfSides
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4500061142622424552, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
@@ -78723,10 +80251,50 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 4596136510053457615, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286170
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596136510053457615, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286170]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596136510053457615, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286170].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596136510053457615, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286170].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710860388531483225, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710860388531483225, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4746366505225458528, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 491803461}
+    - target: {fileID: 4896851975511188431, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286163
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896851975511188431, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286163]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896851975511188431, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286163].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896851975511188431, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286163].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4941201867972539984, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78738,7 +80306,7 @@ PrefabInstance:
     - target: {fileID: 5088359575573407978, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 362615675}
+      objectReference: {fileID: 0}
     - target: {fileID: 5161978023391502764, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78787,6 +80355,38 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 5542071702589356955, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286189
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542071702589356955, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286189]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542071702589356955, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286189].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542071702589356955, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286189].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5577517645222818516, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5577517645222818516, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286200]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5577517645222818516, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286200].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5577517645222818516, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286200].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5585575016381126240, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.36
@@ -78799,6 +80399,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.35
       objectReference: {fileID: 0}
+    - target: {fileID: 5585575016381126240, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585575016381126240, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585575016381126240, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5629478345566621312, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78806,7 +80418,7 @@ PrefabInstance:
     - target: {fileID: 5657614529749696258, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 968665331}
+      objectReference: {fileID: 0}
     - target: {fileID: 5750202746698859801, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78822,6 +80434,30 @@ PrefabInstance:
     - target: {fileID: 5769243019130632298, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_VersionIndex
       value: 14392
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776506294340969736, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776506294340969736, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776611924117309385, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286171
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776611924117309385, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286171]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776611924117309385, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286171].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5776611924117309385, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286171].m_NumberOfSides
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5993501132804097279, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
@@ -78843,6 +80479,30 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 6073051815094719496, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073051815094719496, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087774518652784936, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286193
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087774518652784936, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286193]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087774518652784936, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286193].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087774518652784936, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286193].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6133018020821742052, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78855,10 +80515,50 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1997626016}
+    - target: {fileID: 6171300379847774195, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286191
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171300379847774195, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286191]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171300379847774195, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286191].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171300379847774195, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286191].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6194871987978381653, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1373469880}
+    - target: {fileID: 6232621353351161534, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232621353351161534, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6314429444380103796, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286172
+      objectReference: {fileID: 0}
+    - target: {fileID: 6314429444380103796, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286172]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6314429444380103796, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286172].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6314429444380103796, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286172].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6360581520356720522, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78871,6 +80571,22 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 491251565}
+    - target: {fileID: 6400289237307148173, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400289237307148173, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286192]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400289237307148173, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286192].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400289237307148173, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286192].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6452959315195315369, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78887,10 +80603,42 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 6490079807035489597, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286185
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490079807035489597, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286185]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490079807035489597, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286185].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490079807035489597, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286185].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6496192374831606576, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 959260079}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560071032854950786, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286199
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560071032854950786, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286199]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560071032854950786, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286199].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560071032854950786, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286199].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6590439033472630533, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78898,7 +80646,7 @@ PrefabInstance:
     - target: {fileID: 6608762847185823208, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1701340336}
+      objectReference: {fileID: 0}
     - target: {fileID: 6654128363574317748, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78935,6 +80683,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.46
       objectReference: {fileID: 0}
+    - target: {fileID: 6689757981180752628, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6712142145637178030, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78946,7 +80698,15 @@ PrefabInstance:
     - target: {fileID: 6784013806744060784, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 553948580}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6784320948406174654, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6784320948406174654, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6799854139969607165, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78958,15 +80718,31 @@ PrefabInstance:
     - target: {fileID: 6801395934854286777, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1462564997}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6819480652331114038, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286167
+      objectReference: {fileID: 0}
+    - target: {fileID: 6819480652331114038, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286167]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6819480652331114038, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286167].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6819480652331114038, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286167].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6838367876096754273, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1433332586}
+      objectReference: {fileID: 0}
     - target: {fileID: 6860947209337740546, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1986246278}
+      objectReference: {fileID: 0}
     - target: {fileID: 6908957773723093916, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -78995,6 +80771,22 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 7164122074893862899, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286196
+      objectReference: {fileID: 0}
+    - target: {fileID: 7164122074893862899, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286196]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7164122074893862899, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286196].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7164122074893862899, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286196].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7173736513114749847, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -79003,6 +80795,14 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 7232770555213740237, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286202
+      objectReference: {fileID: 0}
+    - target: {fileID: 7232770555213740237, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286202]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cube
+      objectReference: {fileID: 0}
     - target: {fileID: 7237705817868258349, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -79010,15 +80810,55 @@ PrefabInstance:
     - target: {fileID: 7248116010451389937, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 417847396}
+      objectReference: {fileID: 0}
     - target: {fileID: 7333466351875809578, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 844038483}
+    - target: {fileID: 7350876383013894371, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286198
+      objectReference: {fileID: 0}
+    - target: {fileID: 7350876383013894371, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286198]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7350876383013894371, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286198].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7350876383013894371, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286198].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7387521180903543196, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7387521180903543196, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7398306417720335769, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1958442528}
+      objectReference: {fileID: 0}
+    - target: {fileID: 7401939573135092924, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7401939573135092924, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7501210496724188096, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7501210496724188096, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7506775114926362181, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -79026,15 +80866,31 @@ PrefabInstance:
     - target: {fileID: 7626642775990961367, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 2060998699}
+      objectReference: {fileID: 0}
     - target: {fileID: 7629745902917903416, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1317454202}
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649929690003004849, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286166
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649929690003004849, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286166]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649929690003004849, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286166].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649929690003004849, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286166].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7686450265139893566, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1363010122}
+      objectReference: {fileID: 0}
     - target: {fileID: 7690562962124075520, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -79047,17 +80903,49 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1654390333}
+    - target: {fileID: 7835110989521047671, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7835110989521047671, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845563051188134251, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845563051188134251, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286197]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845563051188134251, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286197].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845563051188134251, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286197].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950816218364733521, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950816218364733521, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8027862393123168249, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 923442969}
+      objectReference: {fileID: 0}
     - target: {fileID: 8051550066973039191, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 426486317}
     - target: {fileID: 8075530431429032875, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.33
+      value: 4.1858516
       objectReference: {fileID: 0}
     - target: {fileID: 8075530431429032875, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_LocalPosition.y
@@ -79073,7 +80961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8075530431429032875, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8075530431429032875, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_LocalRotation.y
@@ -79081,7 +80969,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8075530431429032875, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8075530431429032875, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -79127,6 +81015,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.185
       objectReference: {fileID: 0}
+    - target: {fileID: 8153977246591176484, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8153977246591176484, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8188588786822940848, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8188588786822940848, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8199276746175199920, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -79135,6 +81039,22 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1467817860}
+    - target: {fileID: 8290448291695033797, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286190
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290448291695033797, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286190]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290448291695033797, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286190].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290448291695033797, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286190].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8295357747664048900, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -79147,10 +81067,42 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 14392
       objectReference: {fileID: 0}
+    - target: {fileID: 8364097319063718432, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364097319063718432, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286180]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364097319063718432, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286180].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364097319063718432, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286180].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8375282478250295243, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286178
+      objectReference: {fileID: 0}
+    - target: {fileID: 8375282478250295243, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286178]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8375282478250295243, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286178].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8375282478250295243, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286178].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8391008446338108383, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1500851720}
+      objectReference: {fileID: 0}
     - target: {fileID: 8405397094105422377, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -79158,6 +81110,22 @@ PrefabInstance:
     - target: {fileID: 8405397094105422377, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_VersionIndex
       value: 14392
+      objectReference: {fileID: 0}
+    - target: {fileID: 8487715448661969013, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286181
+      objectReference: {fileID: 0}
+    - target: {fileID: 8487715448661969013, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286181]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8487715448661969013, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286181].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8487715448661969013, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286181].m_NumberOfSides
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8537844720373141909, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
@@ -79170,15 +81138,39 @@ PrefabInstance:
     - target: {fileID: 8589156635645779378, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1105063437}
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597599723379695102, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_Shape
+      value: 3358739011571286156
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597599723379695102, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: 'managedReferences[3358739011571286156]'
+      value: Unity.ProBuilder UnityEngine.ProBuilder.Shapes.Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597599723379695102, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286156].m_Smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597599723379695102, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: managedReferences[3358739011571286156].m_NumberOfSides
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629977792838798378, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629977792838798378, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8656926603039485647, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 667278333}
+      objectReference: {fileID: 0}
     - target: {fileID: 8749667834637568432, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 808050162}
+      objectReference: {fileID: 0}
     - target: {fileID: 8764627117378244834, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -79190,7 +81182,7 @@ PrefabInstance:
     - target: {fileID: 8765738319052886904, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 111164249}
+      objectReference: {fileID: 0}
     - target: {fileID: 8781896917894211009, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -79211,6 +81203,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.135
       objectReference: {fileID: 0}
+    - target: {fileID: 8791461667946795791, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8791461667946795791, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8858337089686106077, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -79218,15 +81218,23 @@ PrefabInstance:
     - target: {fileID: 8906608477815380573, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1352777294}
+      objectReference: {fileID: 0}
+    - target: {fileID: 8940943098422151002, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8940943098422151002, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8975557870269029723, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1703602505}
+      objectReference: {fileID: 0}
     - target: {fileID: 9042964776115377713, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 847536989}
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3047083333939895540, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
     - {fileID: 2983346986138130317, guid: 87a2f3146429e44d983a466c88ae2c89, type: 3}
@@ -104202,6 +106210,7 @@ Transform:
   - {fileID: 105201148}
   - {fileID: 1835514598}
   - {fileID: 1238423197}
+  - {fileID: 1427636810}
   - {fileID: 321788949}
   - {fileID: 1576646355}
   - {fileID: 1252002154}
@@ -104898,11 +106907,6 @@ Transform:
   - {fileID: 1341895841}
   m_Father: {fileID: 41000127}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1913638602 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9222568590694858987, guid: 212907312655a4443a025a304442c17c, type: 3}
-  m_PrefabInstance: {fileID: 511483676}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1917460537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104978,6 +106982,10 @@ PrefabInstance:
     - target: {fileID: 7246356487861254641, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811288841244844584, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.954
       objectReference: {fileID: 0}
     - target: {fileID: 7811288841244844584, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -112885,6 +114893,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2135602489}
     m_Modifications:
     - target: {fileID: 5497641194980743728, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.535
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497641194980743728, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -112976,11 +114988,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 792430830}
   m_SourcePrefab: {fileID: 100100000, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
---- !u!1 &2090836329 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1666732783428950997, guid: 212907312655a4443a025a304442c17c, type: 3}
-  m_PrefabInstance: {fileID: 511483676}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2093163396 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7870950929495012253, guid: 851e7f0ef2f4441a7886e5f1bde415c1, type: 3}
@@ -116056,6 +118063,7 @@ Transform:
   - {fileID: 609417250}
   - {fileID: 612583426}
   - {fileID: 792430829}
+  - {fileID: 1487906386}
   - {fileID: 1020141379}
   m_Father: {fileID: 736103768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
