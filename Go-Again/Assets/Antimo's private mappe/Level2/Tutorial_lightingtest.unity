@@ -6831,9 +6831,15 @@ MonoBehaviour:
     _prefab: Assets/Antimo's private mappe/Cait_whiskers.fbx
   - _gameObject: {fileID: 532668893}
     _prefab: Assets/Antimo's private mappe/cait_hair.fbx
+  - _gameObject: {fileID: 1505949872}
+    _prefab: Assets/Antimo's private mappe/cait_hair.fbx
   - _gameObject: {fileID: 1885846880}
     _prefab: Assets/Antimo's private mappe/cait_hair.fbx
+  - _gameObject: {fileID: 1530244566}
+    _prefab: Assets/Antimo's private mappe/cait_hair.fbx
   - _gameObject: {fileID: 462297156}
+    _prefab: Assets/Antimo's private mappe/cait_hair.fbx
+  - _gameObject: {fileID: 1688725974}
     _prefab: Assets/Antimo's private mappe/cait_hair.fbx
 --- !u!4 &211828661
 Transform:
@@ -40206,6 +40212,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8689252176099819985, guid: 0ce2e17c4c40e43249bd4e8fa3dc3aba, type: 3}
   m_PrefabInstance: {fileID: 717163005229243518}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1505949872 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4264853050654072312, guid: 212907312655a4443a025a304442c17c, type: 3}
+  m_PrefabInstance: {fileID: 511483676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1506905227
 Mesh:
   m_ObjectHideFlags: 0
@@ -41240,6 +41251,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1 &1530244566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7475612991421728709, guid: 212907312655a4443a025a304442c17c, type: 3}
+  m_PrefabInstance: {fileID: 511483676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1531219529 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3806869846187144240, guid: 2e15b9d1fc7274fb6b5985b181dcc41d, type: 3}
@@ -45091,6 +45107,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1688725974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4197987982774544915, guid: 212907312655a4443a025a304442c17c, type: 3}
+  m_PrefabInstance: {fileID: 511483676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1690147875
 Mesh:
   m_ObjectHideFlags: 0
