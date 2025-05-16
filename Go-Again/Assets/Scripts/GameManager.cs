@@ -139,6 +139,8 @@ public class GameManager : MonoBehaviour
     {
         if (winText != null) winText.gameObject.SetActive(true);
         PauseAndLogTime();
+        AudioManager.Instance.Play("meow");
+        Debug.Log("Player has reached the end flag and triggered TriggerWin()!");
     }
 
     private void TriggerLose()
