@@ -11,6 +11,7 @@ TagManager:
   - Ghost
   - Mover
   - PressurePlate
+  - SoftBody
   layers:
   - Default
   - TransparentFX
