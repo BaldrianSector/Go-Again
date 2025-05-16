@@ -29618,6 +29618,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1154076095179621241, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154076095179621241, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_TagString
+      value: SoftBody
+      objectReference: {fileID: 0}
     - target: {fileID: 2119775930974504096, guid: 212907312655a4443a025a304442c17c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -29726,6 +29734,10 @@ PrefabInstance:
       propertyPath: triggerAnimation
       value: 
       objectReference: {fileID: 1862494301}
+    - target: {fileID: 6341998657737914591, guid: 212907312655a4443a025a304442c17c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8047161636021232021, guid: 212907312655a4443a025a304442c17c, type: 3}
       propertyPath: m_Name
       value: Player + Camera
@@ -39081,7 +39093,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1972557430}
+  m_Mesh: {fileID: 856589561}
 --- !u!33 &665745922
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -63760,7 +63772,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1972557430}
+  m_Mesh: {fileID: 643308606}
 --- !u!33 &1301182247
 MeshFilter:
   m_ObjectHideFlags: 10
