@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using StarterAssets;
 
 public class GameManager : MonoBehaviour
 {
@@ -122,6 +123,26 @@ public class GameManager : MonoBehaviour
     private void TriggerLose()
     {
         if (loseText != null) loseText.gameObject.SetActive(true);
+
+            // Disable ThirdPersonController and destroy SoftBody object
+            Transform player = GetPlayer();
+            if (player != null)
+            {
+                ThirdPersonController controllerScript = player.GetComponent<ThirdPersonController>();
+                if (controllerScript != null)
+                {
+                    controllerScript.enabled = false;
+                }
+
+                GameObject softBody = GameObject.FindGameObjectWithTag("SoftBody");
+                if (softBody != null)
+                {
+                    Destroy(softBody);
+                }
+
+                AudioManager.Instance.Play("meow");
+            }
+
     }
 
     private void HideEndTexts()
