@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
 
     private Vector3 lastPosition;
 
+    private bool isTimerRunning = true;
+
     void Awake()
     {
         if (instance == null)
@@ -46,8 +48,11 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        timeInLevel += Time.deltaTime;
-        UpdateTimeUI();
+        if (isTimerRunning)
+        {
+            timeInLevel += Time.deltaTime;
+            UpdateTimeUI();
+        }
 
         if (PlayerExists())
         {
@@ -97,27 +102,43 @@ public class GameManager : MonoBehaviour
     private void UpdateLivesUI()
     {
         if (livesText != null)
-            livesText.text = $"x{livesLeft}";
+            livesText.text = $"{livesLeft}/9";
     }
 
     private void UpdateTimeUI()
     {
         if (timeText == null) return;
+        timeText.text = FormatTime(timeInLevel);
+    }
 
-        int totalSeconds = Mathf.FloorToInt(timeInLevel);
+    public void PauseAndLogTime()
+    {
+        isTimerRunning = false;
+
+        Debug.Log($"Level ended.");
+        Debug.Log($"Time in level: {FormatTime(timeInLevel)}");
+        Debug.Log($"Deaths: {deathCount}");
+        Debug.Log($"Jumps: {jumpCount}");
+        Debug.Log($"Distance traveled: {distanceTraveled:F2} units");
+    }
+
+    private string FormatTime(float time)
+    {
+        int totalSeconds = Mathf.FloorToInt(time);
         int hours = totalSeconds / 3600;
         int minutes = (totalSeconds % 3600) / 60;
-        float seconds = timeInLevel % 60f;
+        float seconds = time % 60f;
 
         if (hours > 0)
-            timeText.text = $"{hours:00}:{minutes:00}:{seconds:00.0}";
+            return $"{hours:00}:{minutes:00}:{seconds:00.0}";
         else
-            timeText.text = $"{minutes:00}:{seconds:00.0}";
+            return $"{minutes:00}:{seconds:00.0}";
     }
 
     public void TriggerWin()
     {
         if (winText != null) winText.gameObject.SetActive(true);
+        PauseAndLogTime();
     }
 
     private void TriggerLose()
@@ -126,21 +147,22 @@ public class GameManager : MonoBehaviour
 
             // Disable ThirdPersonController and destroy SoftBody object
             Transform player = GetPlayer();
-            if (player != null)
+        if (player != null)
+        {
+            ThirdPersonController controllerScript = player.GetComponent<ThirdPersonController>();
+            if (controllerScript != null)
             {
-                ThirdPersonController controllerScript = player.GetComponent<ThirdPersonController>();
-                if (controllerScript != null)
-                {
-                    controllerScript.enabled = false;
-                }
+                controllerScript.enabled = false;
+            }
 
-                GameObject softBody = GameObject.FindGameObjectWithTag("SoftBody");
-                if (softBody != null)
-                {
-                    Destroy(softBody);
-                }
+            GameObject softBody = GameObject.FindGameObjectWithTag("SoftBody");
+            if (softBody != null)
+            {
+                Destroy(softBody);
+            }
 
-                AudioManager.Instance.Play("meow");
+            PauseAndLogTime();
+            AudioManager.Instance.Play("meow");
             }
 
     }

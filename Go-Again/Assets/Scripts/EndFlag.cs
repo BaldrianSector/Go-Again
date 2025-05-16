@@ -7,7 +7,12 @@ public class EndFlag : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player has reached the end flag!");
-            SceneController.instance.NextLevel();
+            // SceneController.instance.NextLevel();
+
+            // Stop the time and show win screen
+            
+            GameManager.instance.winText.gameObject.SetActive(true);
+            
         }
         else
         {
